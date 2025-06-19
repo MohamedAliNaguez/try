@@ -1,0 +1,36 @@
+Date/Heure,Configuration,Valeur testée,Résultat,body
+2025-06-12 16:33:10
+https://api.acdevftp.com/api/V1/updateCloudDrive
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'drive_id': '', 'drive_type': 'AC_ST_100', 'drive_action': 'UPGRADE', 'start_date': '2024-10-01', 'end_date': '2025-10-01', 'interval': 'year', 'currency': 'EUR'}
+FAILED
+{"http_code":400,"message":{"code":"400-48","error":"Drive ID is required"}}
+2025-06-12 16:33:11
+https://api.acdevftp.com/api/V1/getCloudDrive
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'drive_id': ''}
+FAILED
+{"http_code":400,"message":{"code":"400-48","error":"Drive ID is required"}}
+2025-06-12 16:33:12
+https://api.acdevftp.com/api/V1/createAI
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'customer_id': 'B428C830-83A3-1614-918E-75788BBAFA06', 'ai_count': '1', 'start_date': '2024-10-01', 'end_date': '2025-10-01', 'interval': 'month', 'price': '10', 'currency': 'EUR'}
+FAILED
+{"http_code":406,"message":{"code":"406-14","error":"This customer has already AI Subscription"}}
+2025-06-12 16:33:14
+https://api.acdevftp.com/api/V1/updateAI
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'AI_id': '', 'ai_action': 'UPGRADE', 'ai_count': '1', 'start_date': '2024-10-01', 'end_date': '2025-10-01', 'interval': 'year'}
+FAILED
+{"http_code":400,"message":{"code":"400-60","error":"AI_id is required"}}
+2025-06-12 16:33:15
+https://api.acdevftp.com/api/V1/getAI
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'AI_id': ''}
+FAILED
+{"http_code":400,"message":{"code":"400-60","error":"AI_id is required"}}
+2025-06-12 16:33:16
+https://api.acdevftp.com/api/V1/getDeviceList
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'customer_id': 'B428C830-83A3-1614-918E-75788BBAFA06'}
+PASSED
+{"http_code":200,"message":{"success":1},"data":[{"device_id":"1D4FAED6-8B4D-93EA-BD66-BBB0E6E9E70E","name":"autotest","type":"Recorder","manufacturer":"Dahua","max_channels":16,"drive_id":"25B00CAF-5436-BFDE-1E96-626B3ECC7AE4"},{"device_id":"20DF1D98-BE17-AE7D-9094-9FEECBCF5541","name":"test char","type":"Recorder","manufacturer":"Dahua","max_channels":16,"drive_id":"EF9990FA-91EB-9C18-7278-F6ACC7D5B4CD"},{"device_id":"A3E8E245-4453-051B-7986-9587FEA18ECB","name":"testau","type":"Recorder","manufacturer":"Dahua","max_channels":16,"drive_id":null}]}
+2025-06-12 16:33:17
+https://api.acdevftp.com/api/V1/GetUrlConnectAsInstaller
+{'apiKey': 'g^M2pTbn@oTiUb5qEI0eR7roeJx@OZGylSFpxaDc', 'id': 'AB0374F9-5BB9-4505-A276-2247132269E7'}
+FAILED
+{"http_code":404,"message":{"code":"404-11","error":"No such installer with this ID"}}

@@ -1,0 +1,54 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://dashboard.cam2drive-bt.com",
+      "localStorage": [
+        {
+          "name": "i18nextLng",
+          "value": "en"
+        },
+        {
+          "name": "iconify2",
+          "value": "{\"cached\":486154,\"provider\":\"\",\"data\":{\"prefix\":\"entypo\",\"lastModified\":1722793304,\"aliases\":{},\"width\":20,\"height\":20,\"icons\":{\"email\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M14.608 12.172c0 .84.239 1.175.864 1.175c1.393 0 2.28-1.775 2.28-4.727c0-4.512-3.288-6.672-7.393-6.672c-4.223 0-8.064 2.832-8.064 8.184c0 5.112 3.36 7.896 8.52 7.896c1.752 0 2.928-.192 4.727-.792l.386 1.607c-1.776.577-3.674.744-5.137.744c-6.768 0-10.393-3.72-10.393-9.456c0-5.784 4.201-9.72 9.985-9.72c6.024 0 9.215 3.6 9.215 8.016c0 3.744-1.175 6.6-4.871 6.6c-1.681 0-2.784-.672-2.928-2.161c-.432 1.656-1.584 2.161-3.145 2.161c-2.088 0-3.84-1.609-3.84-4.848c0-3.264 1.537-5.28 4.297-5.28c1.464 0 2.376.576 2.782 1.488l.697-1.272h2.016v7.057zm-2.951-3.168c0-1.319-.985-1.872-1.801-1.872c-.888 0-1.871.719-1.871 2.832c0 1.68.744 2.616 1.871 2.616c.792 0 1.801-.504 1.801-1.896z\\\"/>\"}}}}"
+        },
+        {
+          "name": "settings",
+          "value": "{\"themeColor\":\"info\",\"mode\":\"light\",\"skin\":\"default\",\"direction\":\"ltr\",\"appBarBlur\":true,\"navCollapsed\":false,\"contentWidth\":\"boxed\",\"verticalNavToggleType\":\"accordion\"}"
+        },
+        {
+          "name": "userData",
+          "value": "{\"email\":\"test_automationa_acoba@yopmail.com\",\"role\":{\"id\":2,\"name\":\"D_Root\",\"user_type\":\"Distributor\",\"user_id\":\"system\",\"permissions\":[\"C_Installers\",\"R_Installers\",\"U_Installers\",\"D_Installers\",\"CA_Installers\",\"DC_Installers\",\"C_Team_Member\",\"C_Team_Role\",\"D_Team_Member\",\"D_Team_Role\",\"R_Team_Member\",\"R_Team_Role\",\"U_Team_Member\",\"U_Team_Role\"],\"forbidden_channels\":null},\"businessModel\":\"BUSINESS_MODEL_TRADITIONAL\",\"BM_permissions\":[\"R_Subscriptions\"],\"sub_busines_model_traditionnel_credit\":0}"
+        },
+        {
+          "name": "iconify3",
+          "value": "{\"cached\":486154,\"provider\":\"\",\"data\":{\"prefix\":\"mdi\",\"lastModified\":1737398331,\"aliases\":{\"security-lock\":{\"parent\":\"shield-lock\"}},\"width\":24,\"height\":24,\"icons\":{\"account\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4\\\"/>\"},\"arrow-up\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8z\\\"/>\"},\"brush-outline\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M7 16c.55 0 1 .45 1 1c0 1.1-.9 2-2 2c-.17 0-.33 0-.5-.05c.31-.55.5-1.21.5-1.95c0-.55.45-1 1-1M18.67 3c-.26 0-.51.1-.71.29L9 12.25L11.75 15l8.96-8.96c.39-.39.39-1.04 0-1.41l-1.34-1.34c-.2-.2-.45-.29-.7-.29M7 14c-1.66 0-3 1.34-3 3c0 1.31-1.16 2-2 2c.92 1.22 2.5 2 4 2c2.21 0 4-1.79 4-4c0-1.66-1.34-3-3-3\\\"/>\"},\"check\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z\\\"/>\"},\"close\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\\\"/>\"},\"lock-open\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M18 8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h9V6a3 3 0 0 0-3-3a3 3 0 0 0-3 3H7a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6 9a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2\\\"/>\"},\"logout-variant\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M14.08 15.59L16.67 13H7v-2h9.67l-2.59-2.59L15.5 7l5 5l-5 5zM19 3a2 2 0 0 1 2 2v4.67l-2-2V5H5v14h14v-2.67l2-2V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2z\\\"/>\"},\"radiobox-marked\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12 20a8 8 0 0 1-8-8a8 8 0 0 1 8-8a8 8 0 0 1 8 8a8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 5a5 5 0 0 0-5 5a5 5 0 0 0 5 5a5 5 0 0 0 5-5a5 5 0 0 0-5-5\\\"/>\"},\"shield-lock\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5zm0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6 0 1.2.6 1.2 1.3v3.5c0 .6-.6 1.2-1.3 1.2H9.2c-.6 0-1.2-.6-1.2-1.3v-3.5c0-.6.6-1.2 1.2-1.2V9.5C9.2 8.1 10.6 7 12 7m0 1.2c-.8 0-1.5.5-1.5 1.3V11h3V9.5c0-.8-.7-1.3-1.5-1.3\\\"/>\"},\"weather-night\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m17.75 4.09l-2.53 1.94l.91 3.06l-2.63-1.81l-2.63 1.81l.91-3.06l-2.53-1.94L12.44 4l1.06-3l1.06 3zm3.5 6.91l-1.64 1.25l.59 1.98l-1.7-1.17l-1.7 1.17l.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85c-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14c.4-.4.82-.76 1.27-1.08c.75-.53 1.93.36 1.85 1.19c-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82c-2.81 3.14-2.7 7.96.31 10.98c3.02 3.01 7.84 3.12 10.98.31\\\"/>\"}}}}"
+        },
+        {
+          "name": "iconify-count",
+          "value": "4"
+        },
+        {
+          "name": "iconify-version",
+          "value": "iconify2"
+        },
+        {
+          "name": "accessToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRQYXlsb2FkIjoiZXlKaGJHY2lPaUpTVTBFdFQwRkZVQ0lzSW1WdVl5STZJa0V5TlRaSFEwMGlMQ0pyYVdRaU9pSkhVSFowVEZOM1MyOUJNVEoxYVc5WGMzSXplV2hoZFdOSldHMTJSSFZVYldOVWNYazFRUzFFYlZaekluMC5qN1ZNWXlPSkNDM1kyc3FxUFAzeG85MEJidjNFWkt5WmZJZ3Y1bWEyOWI3NTR0NjhKcjBZbGFsOTFBUFllZXdJUXZJTEg4ZkgtR01uaFFLcmhlRzNKVHAxclY5YlFKRzllZFRSVU9mNDd4SGp2WU1RTmgycDdhR3VteUpjNk5IQzFxTTdFN2hDMjRabElvdXEzRnVTVVhERXBVaGZidy1NSW9yNExQSUVpTVNENElSdW9sVEMxdGU0aGt5Y2ZfWnFxWVNIMkxyVDF6S3ZSTXRHckV5UlEzaWpzdFRwamY0YUhjN003SVBmZ0JJZ0IxdzZJR01pLWFCTGhJbWs5NWZkekx2UmNwbFFUYm83ck5TaHRjeDhzeUtZR1VCWXFFdHprakJhY1g3azVIVF9tYmU3ZTUzMWJ5YXFPQXc0SU8xaUNiemJyN2Z0V05rbVZwZHgyOG1vbmcuSXB3SDhjam9ubGRzSl9CVi50eXVndTBIb013b19aeWd0dks5Sk1fUm9nSlFQS3UzWUpodHIzNzBwNWdxNW1rUkswdUJ1VWI0bUtLLTBFdTBtcmNycHJzYjRRLTh1NzRQN1BiWEJ5eHpkMy1CZ2JWa1ZpRDlkRVN4dXBXRWExeDFHemVtQUtETlhiaFVQcklDdElLdjMtWU9Ubkh1WHV5V2hXUTlMVno5cnJrUXdmeGViLk05TVVySzQyU2FrYXRfc0N4d2w1ZEEiLCJpYXQiOjE3NTAxNTY1NDEsImV4cCI6MTc1MDE1ODM0MX0.luRoc1-PvPXBT508Fwd4OugVvtZC82hO-aG2b4L2NYE"
+        },
+        {
+          "name": "iconify1",
+          "value": "{\"cached\":486154,\"provider\":\"\",\"data\":{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"globe\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M128 24a104 104 0 1 0 104 104A104.12 104.12 0 0 0 128 24m88 104a87.6 87.6 0 0 1-3.33 24h-38.51a157.4 157.4 0 0 0 0-48h38.51a87.6 87.6 0 0 1 3.33 24m-114 40h52a115.1 115.1 0 0 1-26 45a115.3 115.3 0 0 1-26-45m-3.9-16a140.8 140.8 0 0 1 0-48h59.88a140.8 140.8 0 0 1 0 48ZM40 128a87.6 87.6 0 0 1 3.33-24h38.51a157.4 157.4 0 0 0 0 48H43.33A87.6 87.6 0 0 1 40 128m114-40h-52a115.1 115.1 0 0 1 26-45a115.3 115.3 0 0 1 26 45m52.33 0h-35.62a135.3 135.3 0 0 0-22.3-45.6A88.29 88.29 0 0 1 206.37 88Zm-98.74-45.6A135.3 135.3 0 0 0 85.29 88H49.63a88.29 88.29 0 0 1 57.96-45.6M49.63 168h35.66a135.3 135.3 0 0 0 22.3 45.6A88.29 88.29 0 0 1 49.63 168m98.78 45.6a135.3 135.3 0 0 0 22.3-45.6h35.66a88.29 88.29 0 0 1-57.96 45.6\\\"/>\"}}}}"
+        },
+        {
+          "name": "iconify0",
+          "value": "{\"cached\":486154,\"provider\":\"\",\"data\":{\"prefix\":\"mdi\",\"lastModified\":1737398331,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"eye-off-outline\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M2 5.27L3.28 4L20 20.72L18.73 22l-3.08-3.08c-1.15.38-2.37.58-3.65.58c-5 0-9.27-3.11-11-7.5c.69-1.76 1.79-3.31 3.19-4.54zM12 9a3 3 0 0 1 3 3a3 3 0 0 1-.17 1L11 9.17A3 3 0 0 1 12 9m0-4.5c5 0 9.27 3.11 11 7.5a11.8 11.8 0 0 1-4 5.19l-1.42-1.43A9.86 9.86 0 0 0 20.82 12A9.82 9.82 0 0 0 12 6.5c-1.09 0-2.16.18-3.16.5L7.3 5.47c1.44-.62 3.03-.97 4.7-.97M3.18 12A9.82 9.82 0 0 0 12 17.5c.69 0 1.37-.07 2-.21L11.72 15A3.064 3.064 0 0 1 9 12.28L5.6 8.87c-.99.85-1.82 1.91-2.42 3.13\\\"/>\"}}}}"
+        },
+        {
+          "name": "persist:root",
+          "value": "{\"from\":\"\\\"\\\"\",\"section\":\"\\\"\\\"\",\"productId\":\"\\\"\\\"\",\"currency\":\"\\\"\\\"\",\"vatPercentage\":\"0\",\"description\":\"\\\"\\\"\",\"productName\":\"\\\"\\\"\",\"subscriptionId\":\"\\\"\\\"\",\"ai_count\":\"1\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}
