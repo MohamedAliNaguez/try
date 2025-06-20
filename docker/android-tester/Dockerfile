@@ -1,24 +1,37 @@
 # ./docker/android-tester/Dockerfile
-
-# Start from a pre-configured Android image (Android 11 + emulator)
 FROM budtmo/docker-android:emulator_11.0
 
 # ----- SYSTEM SETUP -----
-# Install Node.js (for Appium/WebdriverIO)
 USER root
 
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
-    && apt-get install -y nodejs \
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y \
+    nodejs \
+    npm \
+    aapt \
+    unzip \
+    default-jdk \
     && rm -rf /var/lib/apt/lists/*
 
+# Install specific Node.js version
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs
+
 # ----- EMULATOR CONFIG -----
-# Copy pre-optimized emulator config
-COPY docker/android-tester/emu-config.ini /root/.android/avd/Pixel_4.avd/config.ini
+# Create default AVD
+RUN echo "no" | avdmanager create avd \
+    -n Pixel_4 \
+    -k "system-images;android-30;google_apis;x86_64" \
+    --force
+
+# Copy optimized config
+COPY emu-config.ini /root/.android/avd/Pixel_4.avd/config.ini
 
 # ----- TEST ENVIRONMENT -----
 WORKDIR /app
 
-# Cache npm dependencies first (faster rebuilds)
+# Install dependencies first for caching
 COPY CMS_Android_E2E_tests/package*.json ./
 RUN npm install
 
@@ -27,12 +40,14 @@ COPY CMS_Android_E2E_tests/ ./
 COPY apps/ /root/tests/apps/
 
 # ----- HEALTH CHECK -----
-# Wait for emulator to fully boot
-HEALTHCHECK --interval=5s --timeout=3s \
-  CMD adb shell getprop sys.boot_completed | grep 1
+HEALTHCHECK --interval=10s --timeout=5s \
+    CMD adb shell getprop sys.boot_completed | grep 1
 
 # ----- ENTRYPOINT -----
-# Startup script (runs when container starts)
-COPY docker/android-tester/entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+
+# Cleanup
+RUN apt-get clean && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
