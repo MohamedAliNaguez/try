@@ -1,10 +1,10 @@
 exports.config = {
-    //
-    // ====================
-    // Runner Configuration
-    // ====================
-    // WebdriverIO supports running e2e tests as well as unit and component tests.
-    runner: 'local',
+    hostname: 'localhost',
+    port: 4723,
+    path: '/wd/hub',
+    specs: [
+        './test/specs/**/*.js'
+    ],
     //
     // ==================
     // Specify Test Files
@@ -49,16 +49,20 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
-  platformName: 'Android',
-  'appium:deviceName': 'emulator-5554',
-  'appium:automationName': 'UiAutomator2',
-  'appium:platformVersion': '15',
-  'appium:appPackage': 'com.acoba.cms.id.stg', // <-- updated
-  'appium:appActivity': 'com.acoba.cms.id.MainActivity', // <-- updated
-  'appium:noReset': true,
-  'appium:autoGrantPermissions': true
-}],
+       capabilities: [{
+        platformName: 'Android',
+        'appium:deviceName': 'Pixel_4',
+        'appium:automationName': 'UiAutomator2',
+        'appium:platformVersion': '11',
+        'appium:app': '/root/tests/apps/apk_staging_29-05-2025.apk',
+        'appium:appPackage': 'com.acoba.cms.id.stg',
+        'appium:appActivity': 'com.acoba.cms.id.MainActivity',
+        'appium:noReset': false,
+        'appium:fullReset': true,
+        'appium:autoGrantPermissions': true,
+        'appium:newCommandTimeout': 300,
+        'appium:adbExecTimeout': 120000
+    }],
     //
     // ===================
     // Test Configurations
